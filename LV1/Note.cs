@@ -31,7 +31,7 @@ namespace LV1
         public int NotesPriority
         {
             get{ return this.notesPriority; }
-            set { this.priority = value; }
+            set { this.notesPriority = value; }
         }
         public String getText()
         {
@@ -43,7 +43,7 @@ namespace LV1
         }
         public int getNotesPriority()
         {
-            return this.priority;
+            return this.notesPriority;
         }
         public void setText(String text)
         {
