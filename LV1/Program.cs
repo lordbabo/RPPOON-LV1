@@ -12,13 +12,13 @@ namespace LV1
         {
             Note note1;
             note1 = new Note();
-            Console.WriteLine(note1.author);
-            Console.WriteLine(note1.text);
+            Console.WriteLine(note1.getAuthor);
+            Console.WriteLine(note1.getText);
 
             Note note2;
             note2 = new Note("Antigona", 1);
-            Console.WriteLine(note2.author);
-            Console.WriteLine(note2.text);
+            Console.WriteLine(note2.getAuthor);
+            Console.WriteLine(note2.getText);
 
             TimeNote timenote = new TimeNote();
             Console.WriteLine(timenote.ToString());
