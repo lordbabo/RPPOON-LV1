@@ -8,9 +8,9 @@ namespace LV1
 {
     class Note
     {
-        public string text { get; private set; }
-        public string author { get; set; }
-        public int notesPriority { get; set; }
+        private String text { get; private set; }
+        private String author { get; set; }
+        private int notesPriority { get; set; }
         public Note()
         {
             this.text = "Default Text";
